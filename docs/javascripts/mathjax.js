@@ -1,16 +1,24 @@
 window.MathJax = {
   tex: {
-    inlineMath: [['\\(', '\\)']],
-    displayMath: [['\\[', '\\]']],
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
     processEscapes: true,
-    processEnvironments: true,
+    processEnvironments: true
   },
   options: {
-    ignoreHtmlClass: '.*|',
-    processHtmlClass: 'arithmatex',
-  },
-}
+    ignoreHtmlClass: ".*|",
+    processHtmlClass: "arithmatex"
+  }
+};
 
-document$.subscribe(() => {
+document$.subscribe(() => { 
+  MathJax.startup.output.clearCache()
+  MathJax.typesetClear()
+  MathJax.texReset()
   MathJax.typesetPromise()
+})
+
+component$.subscribe(({ ref }) => {
+  if (ref.classList.contains("md-annotation"))
+    MathJax.typesetPromise([ref])
 })
