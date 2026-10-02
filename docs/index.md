@@ -1,5 +1,5 @@
 ---
-title: Bienvenue sur le site Info-Maths du lycée de Cornouaille
+title: Info-Maths
 description: Page d'accueil du site dédié à la NSI et à la spécialité Mathématiques du lycée de Cornouaille à Quimper
 ---
 
