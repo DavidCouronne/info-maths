@@ -1,0 +1,108 @@
+[project]
+site_name = "Info-Maths"
+site_url = "https://info-maths.netlify.app/"
+site_author = "David Couronné"
+site_description = "Cours de NSI et de Mathématiques au lycée de Cornouaille"
+copyright = "CC BY-SA / David Couronné"
+
+extra_javascript = [
+  "javascripts/mathjax.js",
+  "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"
+]
+
+# Repository
+repo_name = "davidcouronne/info-maths"
+repo_url = "https://github.com/davidcouronne/info-maths"
+edit_uri = "edit/main/docs/"
+
+# Thème & Fonctionnalités
+[project.theme]
+name = "zensical"
+language = "fr"
+features = [
+  "content.code.copy",
+  "navigation.indexes",
+  "navigation.tabs",
+  "navigation.top",
+  "search.suggest",
+]
+
+# Mode clair / sombre
+[[project.theme.palette]]
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+# Scripts et Styles
+
+
+# Analytics & Réseaux sociaux
+[project.extra.analytics]
+provider = "google"
+property = "G-F1835NSKEC"
+
+[[project.extra.social]]
+icon = "fontawesome/solid/paper-plane"
+link = "mailto:david-couronne@ac-rennes.fr"
+name = "Écrire à l'auteur"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/davidcouronne/info-maths"
+name = "Dépôt git"
+
+[[project.extra.social]]
+icon = "fontawesome/solid/school"
+link = "https://lycee-de-cornouaille-quimper.ac-rennes.fr"
+name = "Lycée de Cornouaille - Quimper"
+
+# Plugins
+[project.plugins]
+search = {}
+git-revision-date-localized = { enable_creation_date = true }
+awesome-pages = { collapse_single_pages = false }
+macros = {}
+
+
+
+# Extensions Markdown
+
+[project.markdown_extensions]
+admonition = {}
+attr_list = {}
+abbr = {}
+tables = {}
+def_list = {}
+
+pymdownx.arithmatex.generic = true
+
+# Inclusions textuelles (abréviations, etc.)
+"pymdownx.snippets" = { auto_append = ["includes/abbreviations.md"] }
+
+# Mise en forme du texte
+"pymdownx.caret" = {}
+"pymdownx.keys" = {}
+"pymdownx.mark" = {}
+"pymdownx.tilde" = {}
+"pymdownx.details" = {}
+
+# Code, Highlighting & Mermaid
+"pymdownx.highlight" = { anchor_linenums = true }
+"pymdownx.inlinehilite" = {}
+
+pymdownx.emoji.emoji_generator = "zensical.extensions.emoji.to_svg"
+pymdownx.emoji.emoji_index = "zensical.extensions.emoji.twemoji"
+
+[project.markdown_extensions."pymdownx.superfences"]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
+
+
+
+
