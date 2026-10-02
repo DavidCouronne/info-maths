@@ -1,0 +1,7 @@
+[build]
+publish = "site"
+command = "pip install zensical && python3 -m zensical build --clean"
+
+[build.environment]
+MISE_PYTHON_GITHUB_ATTESTATIONS = "false"
+PYTHON_VERSION = "3.13"
