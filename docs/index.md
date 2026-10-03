@@ -13,9 +13,6 @@ Accès direct:
 
 [NSI en terminale](2_terminales_nsi/index.md){ .md-button .md-button--primary }
 
-[Spé mathématiques en terminale](maths/expo-premiere.md){ .md-button .md-button--primary }
-
-[Ressources diverses](ressources/conda.md){ .md-button .md-button--primary }
 
 !!! savoir "À savoir"
 
