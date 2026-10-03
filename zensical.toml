@@ -24,7 +24,11 @@ features = [
   "navigation.indexes",
   "navigation.tabs",
   "navigation.top",
+  "navigation.sections",
+  "navigation.expand",
+  "toc.follow",
   "search.suggest",
+  "search.highlight",
 ]
 
 # Mode clair / sombre
@@ -37,9 +41,6 @@ toggle.name = "Switch to dark mode"
 scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
-
-# Scripts et Styles
-
 
 # Analytics & Réseaux sociaux
 [project.extra.analytics]
@@ -65,13 +66,10 @@ name = "Lycée de Cornouaille - Quimper"
 [project.plugins]
 search = {}
 git-revision-date-localized = { enable_creation_date = true }
-awesome-pages = { collapse_single_pages = false }
+#awesome-pages = { collapse_single_pages = false }
 macros = {}
 
-
-
 # Extensions Markdown
-
 [project.markdown_extensions]
 admonition = {}
 attr_list = {}
@@ -103,6 +101,7 @@ custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
 ]
 
-
+# Navigation (Correction : suppression du "nav =" en trop)
+# Navigation (Correction définitive de la structure TOML)
 
 
