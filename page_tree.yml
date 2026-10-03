@@ -1,77 +1,64 @@
-# Page tree
 nav:
   - Accueil: index.md
+
+  # --- ESPACE ÉLÈVES ---
   - Première NSI:
-      - premiere/index.md
-      - Les bases de Python:
-          - Principes de base de Python: premiere/bases_de_python/principes.md
-          - Stockage dans des variables: premiere/bases_de_python/variables.md
-          - Les chaînes: premiere/bases_de_python/string.md
-          - Les booléens: premiere/bases_de_python/booleens.md
-          - Les fonctions: premiere/bases_de_python/fonctions.md
-          - Les structures conditionnelles: premiere/bases_de_python/ifelse.md
-      - Représentation des nombres:
-          - Le binaire: premiere/representation/binaire.md
-          - Codage des entiers: premiere/representation/codage_entiers.md
-          - Codage de non entiers: premiere/representation/codage_non_entiers.md
-      - Types construits:
-          - Les listes: premiere/types_construits/listes.md
-          - Les tuple: premiere/types_construits/tuple.md
-          - Les dictionnaires: premiere/types_construits/dictionnaires.md
-      - Algorithmique:
+      - Accueil Première: premiere/index.md
+      - 1. Les bases de Python:
+          - Principes de base: premiere/bases_de_python/principes.md
+          - Variables: premiere/bases_de_python/variables.md
+          - Chaînes de caractères: premiere/bases_de_python/string.md
+          - Booléens: premiere/bases_de_python/booleens.md
+          - Fonctions: premiere/bases_de_python/fonctions.md
+          - Structures conditionnelles: premiere/bases_de_python/ifelse.md
+      - 2. Représentation des nombres:
+          - Binaire: premiere/representation/binaire.md
+          - Entiers: premiere/representation/codage_entiers.md
+          - Non entiers: premiere/representation/codage_non_entiers.md
+      - 3. Types construits:
+          - Listes: premiere/types_construits/listes.md
+          - Tuples: premiere/types_construits/tuple.md
+          - Dictionnaires: premiere/types_construits/dictionnaires.md
+      - 4. Algorithmique:
           - Introduction: premiere/algorithmique/introduction.md
           - Parcours séquentiels: premiere/algorithmique/parcours.md
-      - Projets:
-          - Projet1:
-              - premiere/projets/projet1/index.md
-              - Entrées/Sorties: premiere/projets/projet1/entree-sortie.md
-              - Gestion fichiers: premiere/projets/projet1/gestion-fichiers.md
-          - Projet2:
-              - premiere/projets/projet2/index.md
+      - 5. Projets:
+          - Projet 1 (Entrées/Sorties & Fichiers): premiere/projets/projet1/index.md  # (Regrouper les sous-pages si elles sont courtes)
+          - Projet 2: premiere/projets/projet2/index.md
 
   - Terminale NSI:
-      - terminales/index.md
-      - POO: terminales/poo.md
-      - Récursivité: terminales/recursivite.md
-      - SQL: terminales/sql.md
+      - Accueil Terminale: terminales/index.md
+      - Cours & Notions:
+          - POO: terminales/poo.md
+          - Récursivité: terminales/recursivite.md
+          - SQL: terminales/sql.md
       - Structures de Données:
-          - terminales/Structures_de_donnees/index.md
+          - Introduction: terminales/Structures_de_donnees/index.md
           - Listes chaînées: terminales/Structures_de_donnees/listes-chainees.md
-          - terminales/Structures_de_donnees/piles.md
-          - terminales/Structures_de_donnees/files.md
-      - DM/Projets:
-          - DM1:
-              - terminales/DM/DM1/dm1.md
-              - terminales/DM/DM1/hanoi.md
-              - terminales/DM/DM1/geometrie.md
-              - terminales/DM/DM1/jeu-objet.md
-          - DM2:
-              - terminales/DM/DM2/dm2.md
+          - Piles: terminales/Structures_de_donnees/piles.md
+          - Files: terminales/Structures_de_donnees/files.md
+      - Devoirs & Projets (DM):
+          - DM 1 (Hanoi, Géométrie, Jeu): terminales/DM/DM1/dm1.md
+          - DM 2: terminales/DM/DM2/dm2.md
+      - Banque de Sujets (Écrits & Pratiques):
+          - Sujets écrits (global): terminales/sujets-ecrits/index.md
+          - Sujets pratiques (global): terminales/sujets_pratiques/index.md
+          # (Astuce : tu peux archiver les sujets spécifiques dans des dossiers repliés ou une sous-section pour éviter d'alourdir la vue)
 
-      - Sujets écrits:
-          - terminales/sujets-ecrits/index.md
-
-          - Sujets complets: terminales/sujets-ecrits/02-sujets.md
-          - Sujets structures: terminales/sujets-ecrits/03-structures.md
-          - Sujets SQL: terminales/sujets-ecrits/04-bases-donnees.md
-          - Sujets architecture: terminales/sujets-ecrits/05-architecture.md
-          - Sujets langages: terminales/sujets-ecrits/06-langages.md
-          - Sujets algo: terminales/sujets-ecrits/07-algorithmique.md
-          - terminales/sujets-ecrits/2022-polynesie-1.md
-      - Sujets pratiques:
-          - terminales/sujets_pratiques/index.md
-          - Sujet 1: terminales/sujets_pratiques/sujet1.md
-          - Sujet 2: terminales/sujets_pratiques/sujet2.md
-          - Sujet 3: terminales/sujets_pratiques/sujet3.md
-          - Sujet 4: terminales/sujets_pratiques/sujet4.md
-          - Sujet 11: terminales/sujets_pratiques/sujet11.md
-          - Sujet 23: terminales/sujets_pratiques/sujet23.md
   - Mathématiques:
-      - Expontielle Première: maths/expo-premiere.md
-  - Ressources:
-      - Anaconda et Miniconda: ressources/conda.md
-      - Visual Studio Code: ressources/vscode.md
-      - Types en Python: ressources/types.md
-      - mkdocs:
+      - Spécialité Première: maths/expo-premiere.md
+
+  # --- ESPACE PROFESSEUR & TECHNIQUE ---
+  - Labo & Outils (Prof):
+      - Environnement de travail:
+          - Anaconda / Miniconda: ressources/conda.md
+          - Visual Studio Code: ressources/vscode.md
+          - Types en Python: ressources/types.md
+      - IA & Prompts:
+          - Tuteur NSI: ressources/tuteur-nsi.md
+          - Prompts NotebookLM: ressources/prompts-notebooklm-2.md
+          - Agents CLI: ressources/agents-cli.md
+          - Veille technologique: ressources/veille-catualites.md
+      - Mémos Technique (MkDocs):
           - Admonitions: ressources/mkdocs/admonitions.md
-          - Katex: ressources/mkdocs/katex.md
+          - KaTeX: ressources/mkdocs/katex.md
