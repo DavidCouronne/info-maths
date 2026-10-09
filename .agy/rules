@@ -8,7 +8,7 @@ markdown_rules:
     keys:
       - title
       - description
-  
+
   headings:
     h1_limit: 1  # Un seul titre # (H1) par fichier, placé juste après le frontmatter
     h2_usage: "Utiliser ## (H2) pour toutes les sections principales"
@@ -24,3 +24,23 @@ markdown_rules:
 
   footer:
     require_see_also: true # Toujours inclure une section "## 🔗 Ressources associées" à la fin
+
+# Contraintes strictes pour le rendu MkDocs / Zensical
+markdown_formatting_rules:
+  admonitions:
+    indentation: "EXACTEMENT 4 espaces pour tout le contenu situé dans une admonition"
+    nesting: "Si une admonition contient un bloc de code, le bloc de code doit être indenté de 4 espaces supplémentaires (4 espaces au total par rapport à la marge du fichier)"
+    example: |
+      ??? note title="Voir le prompt"
+          Voici le texte explicatif indenté de 4 espaces.
+
+          ```markdown title="prompt.md"
+          Contenu du bloc de code avec indentation de 4 espaces.
+          ```
+
+  code_blocks:
+    closing_fence: "Toujours fermer un bloc de code avec ``` sur sa propre ligne (indenté au même niveau que l'ouverture s'il est dans une admonition)"
+    escaping: "Si le bloc de code contient du Markdown avec des blocs de code internes (ex: des prompts contenant eux-mêmes du code), utiliser des fentes de 4 tildes ~~~~ ou de 4 backticks ```` pour ne pas casser le bloc parent"
+
+  lists:
+    indentation: "Sous-listes indentées de 4 espaces"
