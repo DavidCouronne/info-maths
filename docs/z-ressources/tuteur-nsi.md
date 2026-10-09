@@ -117,3 +117,12 @@ Je n'ai rien compris, explique-moi tout depuis le début.
 ```
 
 Observe si le tuteur reste dans son rôle, si les indices sont utiles et si le niveau d'aide augmente quand l'élève est bloqué. Ajuste le prompt en fonction.
+
+---
+
+## 🔗 Ressources associées
+
+- [Prompts NotebookLM pour l'enseignement et les élèves](prompts-notebooklm.md)
+- [Prompts de veille et d'actualités](veille-actualites.md)
+- [Annotations et typage en Python](types.md)
+
