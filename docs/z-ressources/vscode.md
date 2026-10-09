@@ -1,5 +1,5 @@
 ---
-tile: Visual Studio Code avec Python, LaTex et Markdown
+title: Visual Studio Code avec Python, LaTex et Markdown
 description: Comment bien utiliser Visual Studio Code pour travailler avec Python, LaTeX et Markdwon. Avec en bonus un peu de HTML, CSS et ... Javascript !!!
 ---
 
