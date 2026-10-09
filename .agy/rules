@@ -1,0 +1,26 @@
+# Configuration des règles de rédaction pour le site Zensical
+site_engine: zensical / mkdocs-material
+
+markdown_rules:
+  frontmatter:
+    required: true
+    format: yaml
+    keys:
+      - title
+      - description
+  
+  headings:
+    h1_limit: 1  # Un seul titre # (H1) par fichier, placé juste après le frontmatter
+    h2_usage: "Utiliser ## (H2) pour toutes les sections principales"
+    h3_usage: "Utiliser ### (H3) pour les sous-sections"
+
+  code_blocks:
+    require_language: true
+    require_title: true # Exemple: ```python title="script.py"
+
+  admonitions:
+    syntax: "!!! note, !!! tip, !!! warning, ??? info"
+    use_cases: "Mettre en valeur les prérequis, astuces et avertissements techniques"
+
+  footer:
+    require_see_also: true # Toujours inclure une section "## 🔗 Ressources associées" à la fin
