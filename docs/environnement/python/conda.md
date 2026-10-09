@@ -92,7 +92,7 @@ conda env create -n [name of the environment] -f [file]
 
 ## 🔗 Ressources associées
 
-- [Guide Visual Studio Code](vscode.md)
-- [Guide de configuration Linux Mint](guide-linux-mint.md)
+- [Guide Visual Studio Code](../ide/vscode.md)
+- [Guide de configuration Linux Mint](../os/linux-mint.md)
 - [Annotations et typage en Python](types.md)
 
