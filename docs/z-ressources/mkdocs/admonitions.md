@@ -3,6 +3,8 @@ title: Admonitions avec Mkdocs Material
 description: Admonitions avec Mkdocs Material
 ---
 
+# Admonitions avec Mkdocs Material
+
 ## Admonitions de base
 
 [`note`](#type:note){ #type:note }
