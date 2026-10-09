@@ -178,3 +178,12 @@ Puis ajouter ce que vous voulez, par exemple `*.cor`
 === "macOs"
 
     Apple fournit un packet de Git avec [Xcode](https://developer.apple.com/xcode/).
+
+---
+
+## 🔗 Ressources associées
+
+- [Gestion d'environnements Conda](conda.md)
+- [Guide de configuration Linux Mint](guide-linux-mint.md)
+- [Ajouter Katex à MkDocs](mkdocs/katex.md)
+
