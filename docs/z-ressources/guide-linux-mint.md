@@ -346,15 +346,19 @@ uv python upgrade
 
 ## 8. Aide-mémoire
 
+### 8.1 Python
+
 ```bash
-# Python
 uv python install 3.12                          # ajouter une version de Python
 uv tool install --python 3.9 outil              # outil avec une version précise
 uv tool upgrade --all                           # mettre à jour tous les outils
 uv add --script s.py pandas && uv run s.py      # script avec dépendances
 uv init projet && cd projet && uv add pandas    # nouveau projet
+```
 
-# LaTeX
+### 8.2 LaTeX
+
+```bash
 kpsewhich -var-value TEXMFHOME                  # dossier personnel TeX
 kpsewhich monstyle.sty                          # vérifier qu'un fichier est trouvé
 texhash ~/texmf                                 # reconstruire l'index
