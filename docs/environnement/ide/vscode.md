@@ -183,7 +183,7 @@ Puis ajouter ce que vous voulez, par exemple `*.cor`
 
 ## 🔗 Ressources associées
 
-- [Gestion d'environnements Conda](conda.md)
-- [Guide de configuration Linux Mint](guide-linux-mint.md)
-- [Ajouter Katex à MkDocs](mkdocs/katex.md)
+- [Gestion d'environnements Conda](../python/conda.md)
+- [Guide de configuration Linux Mint](../os/linux-mint.md)
+- [Ajouter Katex à MkDocs](../site/katex.md)
 
