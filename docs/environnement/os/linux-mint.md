@@ -368,7 +368,7 @@ texhash ~/texmf                                 # reconstruire l'index
 
 ## 🔗 Ressources associées
 
-- [Configuration et extensions VS Code](vscode.md)
-- [Gestion des environnements Conda](conda.md)
-- [Prompts de veille et d'actualités](veille-actualites.md)
+- [Configuration et extensions VS Code](../ide/vscode.md)
+- [Gestion des environnements Conda](../python/conda.md)
+- [Prompts de veille et d'actualités](../../pedagogie-ia/02-outils-professeur/veille-actualites.md)
 
