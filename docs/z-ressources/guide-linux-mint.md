@@ -363,3 +363,12 @@ kpsewhich -var-value TEXMFHOME                  # dossier personnel TeX
 kpsewhich monstyle.sty                          # vérifier qu'un fichier est trouvé
 texhash ~/texmf                                 # reconstruire l'index
 ```
+
+---
+
+## 🔗 Ressources associées
+
+- [Configuration et extensions VS Code](vscode.md)
+- [Gestion des environnements Conda](conda.md)
+- [Prompts de veille et d'actualités](veille-actualites.md)
+
