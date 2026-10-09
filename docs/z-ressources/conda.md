@@ -3,6 +3,8 @@ title: Python - Conda, Miniconda, Anaconda
 description: Utilisation de conda, miniconda ou anaconda
 ---
 
+# Python - Conda, Miniconda, Anaconda
+
 Documentation de référence: [https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#)
 
 ## Prérequis
