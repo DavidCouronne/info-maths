@@ -1,4 +1,5 @@
 ---
+title: Typage en Python
 description: Python dans ses versions 3.6 et supérieures supporte des annotations de type (ou type hints) optionnelles. Voici un tutoriel rapide sur les annotations de type Python
 ---
 
